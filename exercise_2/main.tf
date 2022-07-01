@@ -8,6 +8,7 @@ terraform {
    backend "s3" {
    bucket = "rc-tf-remote-state-bucket-lijo"
    key = "terraform.tfstate"
+   region = "ap-south-1"
   }
 }
 
